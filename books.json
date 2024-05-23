@@ -9,35 +9,35 @@
   },
   {
     "id": 2,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "UX for dummies",
+    "author": "Snorl Martin",
     "description": "Lorem ipsum",
     "category": "UX",
-    "price": 150
+    "price": 350
   },
   {
     "id": 3,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "UX - a summary",
+    "author": "Barl Mummer",
     "description": "Lorem ipsum",
     "category": "UX",
-    "price": 150
+    "price": 600
   },
   {
     "id": 4,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "How to UX",
+    "author": "Sum Autor",
     "description": "Lorem ipsum",
     "category": "UX",
-    "price": 150
+    "price": 450
   },
   {
     "id": 5,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "Where to start with UX",
+    "author": "Bart Maltorp",
     "description": "Lorem ipsum",
     "category": "UX",
-    "price": 150
+    "price": 800
   },
   {
     "id": 6,
@@ -45,39 +45,39 @@
     "author": "Aifwen Stromblad",
     "description": "HyperText Markup Language, or HTML for short, is a fundamental markup language used across the web to create and structure websites. Metaphorically, in the core web development trio that is HTML, CSS, and JavaScript, HTML are the building blocks, providing a structured base for CSS and JavaScript to build on. As such it is a vital cornerstone in web development, forming a skeleton for the other languages to animate and decorate into a beautiful website. HTML provides structure and organizes content through the use of tags and attributes, which help create structure and effects the way web content is presented. Elements on a page are created with tags that create specific elements, like '<p>' for paragraphs, '<img>' for images, and '<h1>' for the biggest header, for example. These tags form the Document Object Model (DOM) which is a tree-like structure that shows the hierarchical arrangement of whatever is on the web page. Then the attributes allow these tags to have special effects, use specific web or local resources or allow them to be manipulated by CSS or JavaScript. In addition, HTML uses semantic tags like '<header>', '<footer>', and '<section>' that not only makes web content more accessible, but also makes it easier for search engines and other technologies to understand the web page, thus allowing it to gain more traction. In addition, using the '<video>' and '<audio>' tags allow for the embedding of media content, so you can easily include a video or song on your webpage. There even is a canvas element which allows you to render 2d shapes and bitmap images. in summary, HTML is a versatile language that is indispensable to a web developer, as it's ability to create structure for web pages and organize and display content is crucial for anyone who wants to code their own website.",
     "category": "HTML",
-    "price": 150
+    "price": 200
   },
   {
     "id": 7,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "How to Make Lard",
+    "author": "Smiggles Pleeb",
     "description": "Lorem ipsum",
     "category": "HTML",
-    "price": 150
+    "price": 300
   },
   {
     "id": 8,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "HTML isn't that hard",
+    "author": "Sam Samson",
     "description": "Lorem ipsum",
     "category": "HTML",
-    "price": 150
+    "price": 650
   },
   {
     "id": 9,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "Help me, HTML is hard!",
+    "author": "Storri Storri",
     "description": "Lorem ipsum",
     "category": "HTML",
-    "price": 150
+    "price": 400
   },
   {
     "id": 10,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "HTML and what it should mean to you",
+    "author": "Peter",
     "description": "Lorem ipsum",
     "category": "HTML",
-    "price": 150
+    "price": 850
   },
   {
     "id": 11,
@@ -89,35 +89,35 @@
   },
   {
     "id": 12,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "Canned Spam Storms",
+    "author": "Carl Lando",
     "description": "Lorem ipsum",
     "category": "CSS",
-    "price": 150
+    "price": 350
   },
   {
     "id": 13,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "CSS for artists",
+    "author": "Karl Badnose",
     "description": "Lorem ipsum",
     "category": "CSS",
-    "price": 150
+    "price": 600
   },
   {
     "id": 14,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "CSS, a terrible language",
+    "author": "Oscar the Grouch",
     "description": "Lorem ipsum",
     "category": "CSS",
-    "price": 150
+    "price": 450
   },
   {
     "id": 15,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "C is for CSS and CSS is for me",
+    "author": "Plees Halp",
     "description": "Lorem ipsum",
     "category": "CSS",
-    "price": 150
+    "price": 800
   },
   {
     "id": 16,
@@ -125,38 +125,38 @@
     "author": "Aifwen Stromblad",
     "description": "JavaScript is a programming language that is essential in front-end web development. In the big trio of crucial web development tools, which are HTML, CSS, and JavaScript, JavaScript creates life in webpages, making content more dynamic and interactive and thus making the page far more fun, interesting, and engaging. JavaScript can do this primarily by manipulating the DOM, or Document Object Model, which is a hierarchical structure which presents the HTML content in a web page. JavaScript can thus use the DOM to do things like handling what happens when something is clicked or a key is pressed (which is referred to as a user event), dynamically update content based on what the content needs to be, and even control multimedia. Another strength of JavaScript is that it is compatible with most, if not outright all, modern web browsers. This bonus means that a front-end developer can use it without too much worry of compatibility. Furthermore, there are multiple libraries and frameworks which allow JavaScript to become far more versatile than it already is. Libraries like JQuery can make a lot of simple tasks easier, while frameworks like React, Angular, or Vue.js can provide ways to build single page applications. On top of all that, JavaScript can also do asynchronous programming, which is essential in modern web development. Through various techniques, JavaScript can retrieve data and information in the background without disrupting the display or other behaviors of the web page. This is imperative in modern web development, since without it we would have to wait and suffer instead of having our web pages do the things we want them to do. In short, JavaScript is crucial for web development due to its versatility and it's compatibility. Without it, our web pages would have no life or engagement to them.",
     "category": "JavaScript",
-    "price": 150
+    "price": 200
   },
   {
     "id": 17,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "Javascript: A simple language really",
+    "author": "Skorn Flunderbund",
     "description": "Lorem ipsum",
     "category": "JavaScript",
-    "price": 150
+    "price": 300
   },
   {
     "id": 18,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "why can't I blend JavaScript for coffee?",
+    "author": "Knarp Smee",
     "description": "Lorem ipsum",
     "category": "JavaScript",
-    "price": 150
+    "price": 650
   },
   {
     "id": 19,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "Metaphysical JavaScript",
+    "author": "Scortle Tortle",
     "description": "Lorem ipsum",
     "category": "JavaScript",
-    "price": 150
+    "price": 400
   },
   {
     "id": 20,
-    "title": "Book title",
-    "author": "Some Author",
+    "title": "JavaScript",
+    "author": "Datsmi Itiz",
     "description": "Lorem ipsum",
     "category": "JavaScript",
-    "price": 150
+    "price": 850
   }
 ]
