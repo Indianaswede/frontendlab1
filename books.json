@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Responsive Design with Bootstrap",
+    "author": "Aifwen Stromblad",
+    "description": "Bootstrap is a popular front-end CSS based frame work that is often used for designing responsive webpages. Furthermore, Bootstrap is very good at making websites that are functional for phones. Bootstrap is free and open-source, which makes it very useful for any software developer making web based applications. Bootstrap contains a lot of different components, specifically for CSS and JavaScript, which makes coding websites a breeze. One of it's most stand out features which makes coding easier has to be it's responsive grid system. It uses containers, rows, and columns to place content wherever you want on the webpage with ease. In addition, it can adapt to a multitude of screen sizes, whether small or large, another feature which makes it ideal for making webpages for mobile devices. Outside of the incredibly robust grid system, bootstrap also utilizes pre-designed components like modals, carousels, and navigation bars, features that, while they can be coded with JavaScript, normally take a lot more time to do well. Bootstrap also uses various easy to integrate JavaScript plugins, which brings with it various quality of life upgrades, like collapsible sections and tooltips. In addition, the CSS framework is not completely rigid, meaning that there is room for modulation. In particular, developers can change default styles through using Sass variables that the framework provides or by overriding the CSS. This means that one could use Bootstrap's underlying structure, which as previously mentioned is very robust, while simultaneously being able to create creative and detailed web designs that can impress whoever looks upon them. In summary, Bootstrap is a powerful web development tool that speeds up development and can maintain quality throughout many different web projects, thanks to it's components and it's ease of use. Without Bootstrap, coding a website would be a greater hassle then it is now.",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 2,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 4,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 5,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 6,
+    "title": "HTML - an Introduction",
+    "author": "Aifwen Stromblad",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 150
+  },
+  {
+    "id": 7,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 150
+  },
+  {
+    "id": 8,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 150
+  },
+  {
+    "id": 9,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 150
+  },
+  {
+    "id": 10,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 150
+  },
+  {
+    "id": 11,
+    "title": "CSS - an introduction",
+    "author": "Aifwen Stromblad",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 150
+  },
+  {
+    "id": 12,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 150
+  },
+  {
+    "id": 13,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 150
+  },
+  {
+    "id": 14,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 150
+  },
+  {
+    "id": 15,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 150
+  },
+  {
+    "id": 16,
+    "title": "JavaScript - an introduction",
+    "author": "Aifwen Stromblad",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 150
+  },
+  {
+    "id": 17,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 150
+  },
+  {
+    "id": 18,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 150
+  },
+  {
+    "id": 19,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 150
+  },
+  {
+    "id": 20,
+    "title": "Book title",
+    "author": "Some Author",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 150
+  }
+]
