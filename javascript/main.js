@@ -28,8 +28,9 @@ async function setUpComponent() {
 function repeatingElements() {
   while (true) {
     let repeater = $('[repeat]');
-    if (!r) { break; }
-    let repCount = Math.max(1, +r.getAttribute('repeat'));
+    if (!repeater) { break; }
+    let repCount = Math.max(1, +repeater.getAttribute('repeat'));
+    repeater.removeAttribute('repeat')
     for (let i = 0; i < repCount - 1, i++;) {
       newElement(repeater, html, false);
     }
@@ -61,4 +62,30 @@ async function PageLoad(src = location.pathname) {
 
 }
 
-setUpComponent().then(x => PageLoad('/'));
+let books;
+const cart = {};
+//JSON Reader
+async function getBooks() {
+  let raw = await fetch('/books.json');
+  books = await raw.json();
+}
+//Display List
+
+//Search Function/filter books
+
+//Get Detailed Display
+function makeDetailedDisplay() {
+
+}
+//Add to cart
+
+//hide/show shopping cart
+
+//calculate row sum
+
+//calculate total sum
+
+
+
+getBooks();
+setUpComponent().then(x => PageLoad());
