@@ -59,7 +59,8 @@ async function PageLoad(src = location.pathname) {
   Cache[src] = html;
   $('main').innerHTML = html;
   setUpComponent();
-  if (truesrc === '/start' || '/filter') {
+  if (src === '/start' || '/filter') {
+
     makeDisplayList();
   }
 }
@@ -69,11 +70,13 @@ const cart = {};
 //JSON Reader
 async function getBooks() {
   let raw = await fetch('books.json');
-  if (!raw.ok) {
-    alert("fetch went bad")
+  books = await raw.json();
+
+  msg = '';
+  for (const book in books) {
+    msg += `${book.title}, `
   }
-  let bookcol = await raw.json();
-  books = JSON.parse(bookcol);
+  alert(msg);
 }
 
 
@@ -81,6 +84,7 @@ async function getBooks() {
 function makeDisplayList() {
   let html = '';
   for (let book of books) {
+    alert("in the loop")
     html += `
       <div class="book">
         <img src="" alt="Book Cover">
