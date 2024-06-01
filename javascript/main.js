@@ -38,9 +38,9 @@ function repeatingElements() {
 }
 
 $('body').addEventListener('click', e => {
-  let thisElement = e.target.closest('a');
-  if (!thisElement) { return; }
-  let href = thisElement.getAttribute('href');
+  let thisLink = e.target.closest('a');
+  if (!thisLink) { return; }
+  let href = thisLink.getAttribute('href');
   if (href.indexOf('http') === 0) { return; }
   if (href === '#') { return; }
   e.preventDefault();
@@ -59,39 +59,47 @@ async function PageLoad(src = location.pathname) {
   Cache[src] = html;
   $('main').innerHTML = html;
   setUpComponent();
-
+  if (truesrc === '/start' || '/filter') {
+    makeDisplayList();
+  }
 }
 
 let books;
 const cart = {};
 //JSON Reader
 async function getBooks() {
-  let raw = await fetch('/books.json');
-  books = await raw.json();
+  let raw = await fetch('books.json');
+  if (!raw.ok) {
+    alert("fetch went bad")
+  }
+  let bookcol = await raw.json();
+  books = JSON.parse(bookcol);
 }
+
 
 //Display List
 function makeDisplayList() {
-  let page = $('display');
   let html = '';
   for (let book of books) {
     html += `
-    <div>
-      <h3>${book.title}</h3>
-      <h5>${book.author}</h5>
-      <a class="${book.id}" href="/detailed">More Details</a>
-      <button>Buy!</button>
-    </div>
+      <div class="book">
+        <img src="" alt="Book Cover">
+        <h3>${book.title}</h3>
+        <h5>${book.author}</h5>
+        <a class="${book.id}" href="/detailed">More Details</a>
+        <button onclick="addToCart(${book})">Buy!</button>
+      </div>
     `;
-    page.innerHTML = html;
   }
+  alert(html);
+  document.querySelector('section').innerHTML = html;
 }
 
 //Search Function/filter books
 
 //Get Detailed Display
 function makeDetailedDisplay(book) {
-  let page = $('details');
+  let page = $('section');
   let html;
   html += `
     <div>
@@ -100,7 +108,7 @@ function makeDetailedDisplay(book) {
       <p>description:${book.description}</p>
       <p>Category:${book.category}</p>
       <p>Price:${book.price}</p>
-      <button>Buy!</button>
+      <button onclick="addToCart(${book})">Buy!</button>
     </div>
     `;
   page.innerHTML = html;
@@ -121,11 +129,28 @@ function addToCart(book) {
 }
 
 //hide/show shopping cart
-
-//calculate row sum
-
-//calculate total sum
-
+//function cart() {
+//
+//
+//  if (cart.length === 0) { return; }
+//  else {
+//    html = "";
+//    var total = 0;
+//    for (let purchase in cart) {
+//      var rowsum = purchase.amount * purchase.bookbuy.price;
+//      total += rowsum;
+//      html += `
+//      <div>
+//        <h3>${purchase.bookbuy.title}</h3>
+//        <h5>${purchase.bookbuy.author}</h5>
+//        <p>amount:${purchase.amount}</p>
+//        <p>Price:${rowsum}</p>
+//      </div>
+//      `;
+//    }
+//    html += '<p>Total:${total}</p>'
+//  }
+//}
 
 
 getBooks();
