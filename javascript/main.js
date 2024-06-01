@@ -69,15 +69,56 @@ async function getBooks() {
   let raw = await fetch('/books.json');
   books = await raw.json();
 }
+
 //Display List
+function makeDisplayList() {
+  let page = $('display');
+  let html = '';
+  for (let book of books) {
+    html += `
+    <div>
+      <h3>${book.title}</h3>
+      <h5>${book.author}</h5>
+      <a class="${book.id}" href="/detailed">More Details</a>
+      <button>Buy!</button>
+    </div>
+    `;
+    page.innerHTML = html;
+  }
+}
 
 //Search Function/filter books
 
 //Get Detailed Display
-function makeDetailedDisplay() {
-
+function makeDetailedDisplay(book) {
+  let page = $('details');
+  let html;
+  html += `
+    <div>
+      <h3>${book.title}</h3>
+      <h5>${book.author}</h5>
+      <p>description:${book.description}</p>
+      <p>Category:${book.category}</p>
+      <p>Price:${book.price}</p>
+      <button>Buy!</button>
+    </div>
+    `;
+  page.innerHTML = html;
 }
+
 //Add to cart
+function addToCart(book) {
+  if (cart.some(purch => purch.book === book)) {
+    purch.amount++;
+  }
+  else {
+    let purchase = {
+      bookbuy: book,
+      amount: 1
+    }
+    cart.push(purchase);
+  }
+}
 
 //hide/show shopping cart
 

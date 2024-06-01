@@ -1,2 +1,16 @@
 @import 'bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Mulish:wght@700&display=swap');
+
+main {
+  flex: 1;
+}
+
+main .row:first-of-type {
+  margin-top: 80px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
