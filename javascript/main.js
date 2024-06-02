@@ -67,7 +67,6 @@ async function PageLoad(src = location.pathname) {
 
 let books;
 const cart = {};
-//JSON Reader
 async function getBooks() {
   let raw = await fetch('books.json');
   books = await raw.json();
@@ -80,7 +79,6 @@ async function getBooks() {
 }
 
 
-//Display List
 function makeDisplayList() {
   let html = '';
   for (let book of books) {
@@ -99,9 +97,7 @@ function makeDisplayList() {
   document.querySelector('section').innerHTML = html;
 }
 
-//Search Function/filter books
 
-//Get Detailed Display
 function makeDetailedDisplay(book) {
   let page = $('section');
   let html;
@@ -118,7 +114,6 @@ function makeDetailedDisplay(book) {
   page.innerHTML = html;
 }
 
-//Add to cart
 function addToCart(book) {
   if (cart.some(purch => purch.book === book)) {
     purch.amount++;

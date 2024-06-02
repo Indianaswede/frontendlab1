@@ -1,164 +1,162 @@
-{
-  "books": [
-    {
-      "id": 1,
-      "title": "Responsive Design with Bootstrap",
-      "author": "Aifwen Stromblad",
-      "description": "Bootstrap is a popular front-end CSS based frame work that is often used for designing responsive webpages. Furthermore, Bootstrap is very good at making websites that are functional for phones. Bootstrap is free and open-source, which makes it very useful for any software developer making web based applications. Bootstrap contains a lot of different components, specifically for CSS and JavaScript, which makes coding websites a breeze. One of it's most stand out features which makes coding easier has to be it's responsive grid system. It uses containers, rows, and columns to place content wherever you want on the webpage with ease. In addition, it can adapt to a multitude of screen sizes, whether small or large, another feature which makes it ideal for making webpages for mobile devices. Outside of the incredibly robust grid system, bootstrap also utilizes pre-designed components like modals, carousels, and navigation bars, features that, while they can be coded with JavaScript, normally take a lot more time to do well. Bootstrap also uses various easy to integrate JavaScript plugins, which brings with it various quality of life upgrades, like collapsible sections and tooltips. In addition, the CSS framework is not completely rigid, meaning that there is room for modulation. In particular, developers can change default styles through using Sass variables that the framework provides or by overriding the CSS. This means that one could use Bootstrap's underlying structure, which as previously mentioned is very robust, while simultaneously being able to create creative and detailed web designs that can impress whoever looks upon them. In summary, Bootstrap is a powerful web development tool that speeds up development and can maintain quality throughout many different web projects, thanks to it's components and it's ease of use. Without Bootstrap, coding a website would be a greater hassle then it is now.",
-      "category": "UX",
-      "price": 150
-    },
-    {
-      "id": 2,
-      "title": "UX for dummies",
-      "author": "Snorl Martin",
-      "description": "Lorem ipsum",
-      "category": "UX",
-      "price": 350
-    },
-    {
-      "id": 3,
-      "title": "UX - a summary",
-      "author": "Barl Mummer",
-      "description": "Lorem ipsum",
-      "category": "UX",
-      "price": 625
-    },
-    {
-      "id": 4,
-      "title": "How to UX",
-      "author": "Sum Autor",
-      "description": "Lorem ipsum",
-      "category": "UX",
-      "price": 450
-    },
-    {
-      "id": 5,
-      "title": "Where to start with UX",
-      "author": "Bart Maltorp",
-      "description": "Lorem ipsum",
-      "category": "UX",
-      "price": 800
-    },
-    {
-      "id": 6,
-      "title": "HTML - an Introduction",
-      "author": "Aifwen Stromblad",
-      "description": "HyperText Markup Language, or HTML for short, is a fundamental markup language used across the web to create and structure websites. Metaphorically, in the core web development trio that is HTML, CSS, and JavaScript, HTML are the building blocks, providing a structured base for CSS and JavaScript to build on. As such it is a vital cornerstone in web development, forming a skeleton for the other languages to animate and decorate into a beautiful website. HTML provides structure and organizes content through the use of tags and attributes, which help create structure and effects the way web content is presented. Elements on a page are created with tags that create specific elements, like '<p>' for paragraphs, '<img>' for images, and '<h1>' for the biggest header, for example. These tags form the Document Object Model (DOM) which is a tree-like structure that shows the hierarchical arrangement of whatever is on the web page. Then the attributes allow these tags to have special effects, use specific web or local resources or allow them to be manipulated by CSS or JavaScript. In addition, HTML uses semantic tags like '<header>', '<footer>', and '<section>' that not only makes web content more accessible, but also makes it easier for search engines and other technologies to understand the web page, thus allowing it to gain more traction. In addition, using the '<video>' and '<audio>' tags allow for the embedding of media content, so you can easily include a video or song on your webpage. There even is a canvas element which allows you to render 2d shapes and bitmap images. in summary, HTML is a versatile language that is indispensable to a web developer, as it's ability to create structure for web pages and organize and display content is crucial for anyone who wants to code their own website.",
-      "category": "HTML",
-      "price": 225
-    },
-    {
-      "id": 7,
-      "title": "How to Make Lard",
-      "author": "Smiggles Pleeb",
-      "description": "Lorem ipsum",
-      "category": "HTML",
-      "price": 300
-    },
-    {
-      "id": 8,
-      "title": "HTML isn't that hard",
-      "author": "Sam Samson",
-      "description": "Lorem ipsum",
-      "category": "HTML",
-      "price": 650
-    },
-    {
-      "id": 9,
-      "title": "Help me, HTML is hard!",
-      "author": "Storri Storri",
-      "description": "Lorem ipsum",
-      "category": "HTML",
-      "price": 425
-    },
-    {
-      "id": 10,
-      "title": "HTML and what it should mean to you",
-      "author": "Peter",
-      "description": "Lorem ipsum",
-      "category": "HTML",
-      "price": 850
-    },
-    {
-      "id": 11,
-      "title": "CSS - an introduction",
-      "author": "Aifwen Stromblad",
-      "description": "Cascading Style Sheets, or CSS for short, is an important tool in web development that is used to layout and style web sites. In the important web development trio of HTML, JavaScript, and CSS, it's function allows it to make a website far more decorative and interesting, allowing said website to become aesthetically pleasing without too much hassle. CSS applies these aesthetic changes and styles to HTML elements using parameters known as selectors. These selectors can point to elements in general, or become more specific through an id or class. Once selected, then the stylistic changes from CSS can take hold. The kinds of changes that CSS can make range from things like color changes and font to spacing and positioning. But what if multiple selectors happen to select the same element? That's where the 'cascading' side of CSS comes in. The term comes from a priority scheme that decides where and when which styles apply if multiple rules target the same element. In addition, CSS is capable of controlling the layout of elements. This can be done through setting margins, padding, and borders. It can also be done through positioning elements with properties like flexbox, grid, and float. The grid and flexbox properties in particular can be used for creating more responsive layouts that can adjust to various devices and screen sizes. In times like these where mobile phones are becoming more and more useful for online browsing, having a website capable of doing such is crucial if not outright paramount. In short, CSS is an essential part of web design, as it's ability to enhance layouts and create aesthetically pleasing style changes to HTML elements make it crucial for anyone working on front-end development. Without it, all of our web applications would look drab and ugly, and we'd be miserable.",
-      "category": "CSS",
-      "price": 160
-    },
-    {
-      "id": 12,
-      "title": "Canned Spam Storms",
-      "author": "Carl Lando",
-      "description": "Lorem ipsum",
-      "category": "CSS",
-      "price": 375
-    },
-    {
-      "id": 13,
-      "title": "CSS for artists",
-      "author": "Karl Badnose",
-      "description": "Lorem ipsum",
-      "category": "CSS",
-      "price": 600
-    },
-    {
-      "id": 14,
-      "title": "CSS, a terrible language",
-      "author": "Oscar the Grouch",
-      "description": "Lorem ipsum",
-      "category": "CSS",
-      "price": 460
-    },
-    {
-      "id": 15,
-      "title": "C is for CSS and CSS is for me",
-      "author": "Plees Halp",
-      "description": "Lorem ipsum",
-      "category": "CSS",
-      "price": 825
-    },
-    {
-      "id": 16,
-      "title": "JavaScript - an introduction",
-      "author": "Aifwen Stromblad",
-      "description": "JavaScript is a programming language that is essential in front-end web development. In the big trio of crucial web development tools, which are HTML, CSS, and JavaScript, JavaScript creates life in webpages, making content more dynamic and interactive and thus making the page far more fun, interesting, and engaging. JavaScript can do this primarily by manipulating the DOM, or Document Object Model, which is a hierarchical structure which presents the HTML content in a web page. JavaScript can thus use the DOM to do things like handling what happens when something is clicked or a key is pressed (which is referred to as a user event), dynamically update content based on what the content needs to be, and even control multimedia. Another strength of JavaScript is that it is compatible with most, if not outright all, modern web browsers. This bonus means that a front-end developer can use it without too much worry of compatibility. Furthermore, there are multiple libraries and frameworks which allow JavaScript to become far more versatile than it already is. Libraries like JQuery can make a lot of simple tasks easier, while frameworks like React, Angular, or Vue.js can provide ways to build single page applications. On top of all that, JavaScript can also do asynchronous programming, which is essential in modern web development. Through various techniques, JavaScript can retrieve data and information in the background without disrupting the display or other behaviors of the web page. This is imperative in modern web development, since without it we would have to wait and suffer instead of having our web pages do the things we want them to do. In short, JavaScript is crucial for web development due to its versatility and it's compatibility. Without it, our web pages would have no life or engagement to them.",
-      "category": "JavaScript",
-      "price": 200
-    },
-    {
-      "id": 17,
-      "title": "Javascript: A simple language really",
-      "author": "Skorn Flunderbund",
-      "description": "Lorem ipsum",
-      "category": "JavaScript",
-      "price": 310
-    },
-    {
-      "id": 18,
-      "title": "why can't I blend JavaScript for coffee?",
-      "author": "Knarp Smee",
-      "description": "Lorem ipsum",
-      "category": "JavaScript",
-      "price": 675
-    },
-    {
-      "id": 19,
-      "title": "Metaphysical JavaScript",
-      "author": "Scortle Tortle",
-      "description": "Lorem ipsum",
-      "category": "JavaScript",
-      "price": 400
-    },
-    {
-      "id": 20,
-      "title": "JavaScript",
-      "author": "Datsmi Itiz",
-      "description": "Lorem ipsum",
-      "category": "JavaScript",
-      "price": 860
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Responsive Design with Bootstrap",
+    "author": "Aifwen Stromblad",
+    "description": "Bootstrap is a popular front-end CSS based frame work that is often used for designing responsive webpages. Furthermore, Bootstrap is very good at making websites that are functional for phones. Bootstrap is free and open-source, which makes it very useful for any software developer making web based applications. Bootstrap contains a lot of different components, specifically for CSS and JavaScript, which makes coding websites a breeze. One of it's most stand out features which makes coding easier has to be it's responsive grid system. It uses containers, rows, and columns to place content wherever you want on the webpage with ease. In addition, it can adapt to a multitude of screen sizes, whether small or large, another feature which makes it ideal for making webpages for mobile devices. Outside of the incredibly robust grid system, bootstrap also utilizes pre-designed components like modals, carousels, and navigation bars, features that, while they can be coded with JavaScript, normally take a lot more time to do well. Bootstrap also uses various easy to integrate JavaScript plugins, which brings with it various quality of life upgrades, like collapsible sections and tooltips. In addition, the CSS framework is not completely rigid, meaning that there is room for modulation. In particular, developers can change default styles through using Sass variables that the framework provides or by overriding the CSS. This means that one could use Bootstrap's underlying structure, which as previously mentioned is very robust, while simultaneously being able to create creative and detailed web designs that can impress whoever looks upon them. In summary, Bootstrap is a powerful web development tool that speeds up development and can maintain quality throughout many different web projects, thanks to it's components and it's ease of use. Without Bootstrap, coding a website would be a greater hassle then it is now.",
+    "category": "UX",
+    "price": 150
+  },
+  {
+    "id": 2,
+    "title": "UX for dummies",
+    "author": "Snorl Martin",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 350
+  },
+  {
+    "id": 3,
+    "title": "UX - a summary",
+    "author": "Barl Mummer",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 625
+  },
+  {
+    "id": 4,
+    "title": "How to UX",
+    "author": "Sum Autor",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 450
+  },
+  {
+    "id": 5,
+    "title": "Where to start with UX",
+    "author": "Bart Maltorp",
+    "description": "Lorem ipsum",
+    "category": "UX",
+    "price": 800
+  },
+  {
+    "id": 6,
+    "title": "HTML - an Introduction",
+    "author": "Aifwen Stromblad",
+    "description": "HyperText Markup Language, or HTML for short, is a fundamental markup language used across the web to create and structure websites. Metaphorically, in the core web development trio that is HTML, CSS, and JavaScript, HTML are the building blocks, providing a structured base for CSS and JavaScript to build on. As such it is a vital cornerstone in web development, forming a skeleton for the other languages to animate and decorate into a beautiful website. HTML provides structure and organizes content through the use of tags and attributes, which help create structure and effects the way web content is presented. Elements on a page are created with tags that create specific elements, like '<p>' for paragraphs, '<img>' for images, and '<h1>' for the biggest header, for example. These tags form the Document Object Model (DOM) which is a tree-like structure that shows the hierarchical arrangement of whatever is on the web page. Then the attributes allow these tags to have special effects, use specific web or local resources or allow them to be manipulated by CSS or JavaScript. In addition, HTML uses semantic tags like '<header>', '<footer>', and '<section>' that not only makes web content more accessible, but also makes it easier for search engines and other technologies to understand the web page, thus allowing it to gain more traction. In addition, using the '<video>' and '<audio>' tags allow for the embedding of media content, so you can easily include a video or song on your webpage. There even is a canvas element which allows you to render 2d shapes and bitmap images. in summary, HTML is a versatile language that is indispensable to a web developer, as it's ability to create structure for web pages and organize and display content is crucial for anyone who wants to code their own website.",
+    "category": "HTML",
+    "price": 225
+  },
+  {
+    "id": 7,
+    "title": "How to Make Lard",
+    "author": "Smiggles Pleeb",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 300
+  },
+  {
+    "id": 8,
+    "title": "HTML isn't that hard",
+    "author": "Sam Samson",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 650
+  },
+  {
+    "id": 9,
+    "title": "Help me, HTML is hard!",
+    "author": "Storri Storri",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 425
+  },
+  {
+    "id": 10,
+    "title": "HTML and what it should mean to you",
+    "author": "Peter",
+    "description": "Lorem ipsum",
+    "category": "HTML",
+    "price": 850
+  },
+  {
+    "id": 11,
+    "title": "CSS - an introduction",
+    "author": "Aifwen Stromblad",
+    "description": "Cascading Style Sheets, or CSS for short, is an important tool in web development that is used to layout and style web sites. In the important web development trio of HTML, JavaScript, and CSS, it's function allows it to make a website far more decorative and interesting, allowing said website to become aesthetically pleasing without too much hassle. CSS applies these aesthetic changes and styles to HTML elements using parameters known as selectors. These selectors can point to elements in general, or become more specific through an id or class. Once selected, then the stylistic changes from CSS can take hold. The kinds of changes that CSS can make range from things like color changes and font to spacing and positioning. But what if multiple selectors happen to select the same element? That's where the 'cascading' side of CSS comes in. The term comes from a priority scheme that decides where and when which styles apply if multiple rules target the same element. In addition, CSS is capable of controlling the layout of elements. This can be done through setting margins, padding, and borders. It can also be done through positioning elements with properties like flexbox, grid, and float. The grid and flexbox properties in particular can be used for creating more responsive layouts that can adjust to various devices and screen sizes. In times like these where mobile phones are becoming more and more useful for online browsing, having a website capable of doing such is crucial if not outright paramount. In short, CSS is an essential part of web design, as it's ability to enhance layouts and create aesthetically pleasing style changes to HTML elements make it crucial for anyone working on front-end development. Without it, all of our web applications would look drab and ugly, and we'd be miserable.",
+    "category": "CSS",
+    "price": 160
+  },
+  {
+    "id": 12,
+    "title": "Canned Spam Storms",
+    "author": "Carl Lando",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 375
+  },
+  {
+    "id": 13,
+    "title": "CSS for artists",
+    "author": "Karl Badnose",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 600
+  },
+  {
+    "id": 14,
+    "title": "CSS, a terrible language",
+    "author": "Oscar the Grouch",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 460
+  },
+  {
+    "id": 15,
+    "title": "C is for CSS and CSS is for me",
+    "author": "Plees Halp",
+    "description": "Lorem ipsum",
+    "category": "CSS",
+    "price": 825
+  },
+  {
+    "id": 16,
+    "title": "JavaScript - an introduction",
+    "author": "Aifwen Stromblad",
+    "description": "JavaScript is a programming language that is essential in front-end web development. In the big trio of crucial web development tools, which are HTML, CSS, and JavaScript, JavaScript creates life in webpages, making content more dynamic and interactive and thus making the page far more fun, interesting, and engaging. JavaScript can do this primarily by manipulating the DOM, or Document Object Model, which is a hierarchical structure which presents the HTML content in a web page. JavaScript can thus use the DOM to do things like handling what happens when something is clicked or a key is pressed (which is referred to as a user event), dynamically update content based on what the content needs to be, and even control multimedia. Another strength of JavaScript is that it is compatible with most, if not outright all, modern web browsers. This bonus means that a front-end developer can use it without too much worry of compatibility. Furthermore, there are multiple libraries and frameworks which allow JavaScript to become far more versatile than it already is. Libraries like JQuery can make a lot of simple tasks easier, while frameworks like React, Angular, or Vue.js can provide ways to build single page applications. On top of all that, JavaScript can also do asynchronous programming, which is essential in modern web development. Through various techniques, JavaScript can retrieve data and information in the background without disrupting the display or other behaviors of the web page. This is imperative in modern web development, since without it we would have to wait and suffer instead of having our web pages do the things we want them to do. In short, JavaScript is crucial for web development due to its versatility and it's compatibility. Without it, our web pages would have no life or engagement to them.",
+    "category": "JavaScript",
+    "price": 200
+  },
+  {
+    "id": 17,
+    "title": "Javascript: A simple language really",
+    "author": "Skorn Flunderbund",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 310
+  },
+  {
+    "id": 18,
+    "title": "why can't I blend JavaScript for coffee?",
+    "author": "Knarp Smee",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 675
+  },
+  {
+    "id": 19,
+    "title": "Metaphysical JavaScript",
+    "author": "Scortle Tortle",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 400
+  },
+  {
+    "id": 20,
+    "title": "JavaScript",
+    "author": "Datsmi Itiz",
+    "description": "Lorem ipsum",
+    "category": "JavaScript",
+    "price": 860
+  }
+]
